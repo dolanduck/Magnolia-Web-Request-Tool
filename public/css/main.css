@@ -1,0 +1,80 @@
+body {
+  background:#f8f8f8;
+  margin-bottom:40px;
+}
+
+.active a {
+  font-weight: bold;
+}
+
+.navbar-default {
+  background: rgb(53,121,42);
+  border-radius:0px;
+  border:0px;
+  border-bottom:5px solid rgb(198,213,47);
+}
+
+.navbar-default .navbar-nav>li>a {
+  color:#ffffff;
+}
+
+.navbar-default .navbar-nav > li:hover {
+  background:#2c5111;
+  color:#ffffff !important;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color:#ffffff !important;
+}
+
+input[type=text],input[type=password],input[type=file] {
+    height:40px;
+    border-radius:0px;
+}
+
+textarea {
+  border-radius:0px !important;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  background:#2c5111;
+  color:#ffffff !important;
+}
+
+.btn-green {
+  background-color: transparent !important;
+  color: rgb(53,121,42);
+  background-image: url('http://www.questdiagnostics.com/docroot/dgx/img/icon.action.arrow.png') !important;
+  background-position: 100% 13px !important;
+  background-repeat: no-repeat;
+  padding-right:50px;
+  border:2px solid rgb(198,213,47);
+}
+
+.navbar-brand {
+  color: #fff !important;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #ffffff !important;
+    background:#2c5111;
+}
+
+.loginBox {
+  border:1px solid #ccc;
+  padding:15px 45px 45px 45px;
+  margin-top:45px;
+  background: #ffffff;
+}
+
+.requestBox {
+  border-radius:5px;
+  border:1px solid #ccc;
+  padding:15px 45px 45px 45px;
+  margin-top:25px;
+  background: #ffffff;
+}
+
+.form {
+  padding-top:0px;
+}
